@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, data, graph, training ,sustainability,finance,supply} from "../assets";
 
 export const navLinks = [
   {
@@ -7,11 +7,11 @@ export const navLinks = [
   },
   {
     id: "#features",
-    title: "Features",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "",
+    title: "About",
   },
   {
     id: "contact",
@@ -22,45 +22,45 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: training,
+    title: "Training",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lean Six Sigma(Yellow, Green andBlack Belt Programs),Quality Excellence – 7 QC Tools, 8D,Problem Solving",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: graph,
+    title: "Operational Excellence",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Certified Auditors To Ensure Organization’s Compliance , Process Auditing(VDA 6.3, BIQS, CQI)",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: data,
+    title: "Data Analytics",
+    content:
+      "Power Query, Power Pivot, VBA Macro, Descriptive analytics, automation, visualizations and dashboard",
+  },
+  {
+    id: "feature-4",
+    icon: sustainability,
+    title: "Sustainability",
+    content:
+      "Sustainability Reporting Statutory Compliances, Social Impact Assessment - Corporate Social Responsibility",
+  },
+  {
+    id: "feature-5",
+    icon: finance,
+    title: "Financial Service",
+    content:
+      "Finance & Accounting (F&A) Activities, Auditing, Financial Planning , GST Return Filling , Special Training Programs For Com. Graduates",
+  },
+  {
+    id: "feature-6",
+    icon: supply,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Consulting for Warehouse Cost Optimization, Supply Chain Management ,Logistics Cost monitoring and Optimization",
   },
 ];
 
@@ -94,18 +94,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Onboarded clients",
+    value: "50+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "72+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Client Efficiency",
+    value: "80-90%",
   },
 ];
 

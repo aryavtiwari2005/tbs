@@ -25,12 +25,10 @@ const Business = () =>  (
         Services     
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Six Services - Business Performance Enhancement . Operation Excellence   , Six Sigma / Lean Six Sigma , Lean / TPS, Business Analytic & Balance Score card , Quality Management System
       </p>
 
-      <Button styles={`mt-10`} />
+      <a href="/contact"><Button styles={`mt-10`} /></a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

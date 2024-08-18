@@ -25,12 +25,11 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-fontBlack ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
+          Consulting.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+        To Provide Innovative solutions driving operational excellence for sustained outcomes.
+        Empowering organizations to achieve their full potential through operational excellence.
         </p>
       </div>
 

@@ -8,9 +8,9 @@ import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.jpg";
 import logotwo from "./logo.jpg"
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import data from "./data.svg";
+import graph from "./graph.svg";
+import training from "./training.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -24,8 +24,14 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import sustainability from "./sustainability.svg";
+import finance from "./finance.svg";
+import supply from "./supply.svg";
 
 export {
+  supply,
+  finance,
+  sustainability,
   airbnb,
   logotwo,
   bill,
@@ -36,9 +42,9 @@ export {
   logo,
   quotes,
   robot,
-  send,
-  shield,
-  star,
+  data,
+  graph,
+  training,
   menu,
   close,
   google,
