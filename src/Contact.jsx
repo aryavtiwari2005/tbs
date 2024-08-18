@@ -1,5 +1,5 @@
 import styles from "./style";
-import Contactus from "./components/contactus";
+import Contactus from "./components/Contactus";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 const Contact = () => (
