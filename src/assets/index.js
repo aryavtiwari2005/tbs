@@ -27,8 +27,12 @@ import people03 from "./people03.png";
 import sustainability from "./sustainability.svg";
 import finance from "./finance.svg";
 import supply from "./supply.svg";
+import anand from "./anand.jpeg"
+import rakesh from "./rakesh.jpeg"
 
 export {
+  anand,
+  rakesh,
   supply,
   finance,
   sustainability,

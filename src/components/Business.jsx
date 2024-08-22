@@ -25,7 +25,7 @@ const Business = () =>  (
         Services     
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Six Services - Business Performance Enhancement . Operation Excellence   , Six Sigma / Lean Six Sigma , Lean / TPS, Business Analytic & Balance Score card , Quality Management System
+      TotalBiz-Solutions delivers innovative solutions that drive sustained operational excellence. We partner with organizations to unlock their full potential through agile strategies and measurable results.
       </p>
 
       <a href="/contact"><Button styles={`mt-10`} /></a>

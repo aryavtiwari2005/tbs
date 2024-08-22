@@ -1,6 +1,5 @@
 import styles from "./style";
-import Contactus from "./components/Contactus";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contactus } from "./components";
 
 const Contact = () => (
     <div className="bg-white w-full overflow-hidden">
@@ -18,10 +17,6 @@ const Contact = () => (
 
         <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
-                {/* <Billing /> */}
-                {/* <CardDeal /> */}
-                {/* <Testimonials /> */}
-                {/* <Clients /> */}
                 <Footer />
             </div>
         </div>

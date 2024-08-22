@@ -10,7 +10,7 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "",
+    id: "about",
     title: "About",
   },
   {
@@ -94,18 +94,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Onboarded clients",
-    value: "50+",
+    title: "clients/companies ",
+    value: "12+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "72+",
+    title: "Net Saving",
+    value: "60 Cr+",
   },
   {
     id: "stats-3",
-    title: "Client Efficiency",
-    value: "80-90%",
+    title: "Mananged opex",
+    value: "1000 Cr+",
   },
 ];
 
