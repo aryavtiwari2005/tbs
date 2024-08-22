@@ -61,7 +61,7 @@ const Values = () => (
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                         <h1 class="title-font sm:text-2xl text-xl font-medium text-secondary mb-3">Misson</h1>
-                        <p class="leading-relaxed mb-3 text-left">To Provide Innovative solutions driving operational excellence for sustained outcomes</p>
+                        <p class="leading-relaxed mb-3 text-left text-xl">To Provide Innovative solutions driving operational excellence for sustained outcomes</p>
                         {/* <a class="text-indigo-500 inline-flex items-center">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14"></path>
@@ -87,7 +87,7 @@ const Values = () => (
                     <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                         {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
                         <h1 class="title-font sm:text-2xl text-xl font-medium text-secondary mb-3">Vision</h1>
-                        <p class="leading-relaxed mb-3 text-left">Empowering organizations to achieve their full potential through operational excellence.</p>
+                        <p class="leading-relaxed mb-3 text-left text-xl">Empowering organizations to achieve their full potential through operational excellence.</p>
                         {/* <a class="text-indigo-500 inline-flex items-center">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14"></path>
@@ -113,11 +113,11 @@ const Values = () => (
                     <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                         {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
                         <h1 class="title-font sm:text-2xl text-xl font-medium text-secondary mb-3">Core Values</h1>
-                        <p class="leading-relaxed mb-3 text-left">Based on these core ideas, here are some potential values for TBS Consulting:
+                        <p class="leading-relaxed mb-3 text-left text-xl">
                             <ul>
-                                <li>Agility: Adapting quickly to changing business environments.</li>
-                                <li>Results-Oriented: Delivering tangible outcomes for clients.</li>
-                                <li>Partnership: Building strong, collaborative relationships with clients.</li>
+                                <li><p class='text-secondary'>Agility:</p> Adapting quickly to changing business environments.</li>
+                                <li><p class='text-secondary'>Results-Oriented:</p> Delivering tangible outcomes for clients.</li>
+                                <li><p class='text-secondary'>Partnership:</p> Building strong, collaborative relationships with clients.</li>
                             </ul>
                         </p>
                         {/* <a class="text-indigo-500 inline-flex items-center">Learn More

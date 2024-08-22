@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, data, graph, training ,sustainability,finance,supply} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, data, graph, training ,sustainability,finance,supply,wave,maintain,project,frame,digital} from "../assets";
 
 export const navLinks = [
   {
@@ -23,45 +23,58 @@ export const features = [
   {
     id: "feature-1",
     icon: training,
-    title: "Training",
-    content:
-      "Lean Six Sigma(Yellow, Green andBlack Belt Programs),Quality Excellence – 7 QC Tools, 8D,Problem Solving",
+    title: "Business Performance Enhancement with CEO Dashboard",
+    content:"Accelerate your business growth with our CEO Dashboard. It provides real-time, data-driven insights into key performance indicators, enabling you to make informed decisions, identify opportunities, and optimize operations for maximum profitability."
   },
   {
     id: "feature-2",
     icon: graph,
-    title: "Operational Excellence",
+    title: "Business Analytics & Balance Scorecard, Opex Reduction initiatives",
     content:
-      "Certified Auditors To Ensure Organization’s Compliance , Process Auditing(VDA 6.3, BIQS, CQI)",
+      "Unleash the power of your data. Our Business Analytics and Balance Scorecard solutions help you identify cost reduction opportunities, optimize resource allocation, and improve operational efficiency.",
   },
   {
     id: "feature-3",
     icon: data,
-    title: "Data Analytics",
+    title: "Operational Excellence ,5S, QMS and Quality Assurance Setup",
     content:
-      "Power Query, Power Pivot, VBA Macro, Descriptive analytics, automation, visualizations and dashboard",
+      "Achieve operational excellence through a robust framework. Implement 5S for a clean and organized workplace, establish a comprehensive Quality Management System (QMS) to ensure product and process quality, and build a robust Quality Assurance setup to maintain high For the standards.",
   },
   {
     id: "feature-4",
-    icon: sustainability,
-    title: "Sustainability",
+    icon: wave,
+    title: "Six Sigma, Lean Six Sigma, Lean Manufacturing",
     content:
-      "Sustainability Reporting Statutory Compliances, Social Impact Assessment - Corporate Social Responsibility",
+      "Drive dramatic improvements in efficiency and quality. Six Sigma focuses on reducing defects and variability, while Lean Six Sigma combines this with eliminating waste. Lean Manufacturing optimizes processes, reduces lead times, and maximizes customer value.",
   },
   {
     id: "feature-5",
-    icon: finance,
-    title: "Financial Service",
+    icon: maintain,
+    title: "Total Productive Maintenance",
     content:
-      "Finance & Accounting (F&A) Activities, Auditing, Financial Planning , GST Return Filling , Special Training Programs For Com. Graduates",
+      "Total Productive Maintenance (TPM) is a comprehensive approach to equipment maintenance that involves all employees in maximizing equipment effectiveness. By preventing breakdowns, reducing downtime, and improving equipment performance, TPM significantly enhances overall productivity and product quality.",
   },
   {
     id: "feature-6",
-    icon: supply,
-    title: "Balance Transfer",
+    icon: project,
+    title: "Project and Program Management",
     content:
-      "Consulting for Warehouse Cost Optimization, Supply Chain Management ,Logistics Cost monitoring and Optimization",
+      "Delivering successful projects and programs. Our expertise in project and program management ensures efficient planning, execution, and completion of initiatives. We align projects with strategic goals, manage resources effectively, mitigate risks, and deliver measurable outcomes on time and within budget.",
   },
+  {
+    id: "feature-7",
+    icon: frame,
+    title: "Contract and governance framework",
+    content:
+      "Mitigate risks and optimize value. Our contract and governance framework ensures legal and commercial compliance, effective contract management, and risk mitigation. We establish clear roles and responsibilities, implement robust monitoring systems, and foster strong supplier relationships to maximize contract performance and achieve business objectives.",
+  },
+  {
+    id: "feature-8",
+    icon: digital,
+    title: "Digital Transformation",
+    content:
+    "Drive business growth and innovation. Digital transformation is the process of leveraging digital technologies to fundamentally change how an organization operates and delivers value. It involves integrating digital tools and processes to enhance customer experience, improve efficiency, and create new revenue streams."  
+  }
 ];
 
 export const feedback = [
@@ -114,61 +127,36 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About us",
+        link: "/about",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
+        name: "Management Team",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Our Serivices",
         link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Contact Us",
     links: [
       {
-        name: "Our Partner",
+        name: "Whatsapp Number",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "+91 9315361829",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Email Id:",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "info@totalbiz-solutions.com",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

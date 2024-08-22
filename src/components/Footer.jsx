@@ -11,7 +11,11 @@ const Footer = () => (
           alt="hoobank"
           className="w-[266px] h-[72.14px] object-contain"
         />
+      <p class="px-20 pt-10">Office:</p>
+      <p class="px-20">D1-901, The Pranayam, Sector - 82-85</p>
+      <p class="px-20">Faridabad HR - India - 121007</p>
       </div>
+      
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (

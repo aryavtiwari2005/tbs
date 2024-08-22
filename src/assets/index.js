@@ -29,8 +29,18 @@ import finance from "./finance.svg";
 import supply from "./supply.svg";
 import anand from "./anand.jpeg"
 import rakesh from "./rakesh.jpeg"
+import wave from "./wave.svg"
+import maintain from "./maintain.svg"
+import project from "./project.svg"
+import frame from "./frame.svg"
+import digital from "./digital.svg"
 
 export {
+  digital,
+  frame,
+  project,
+  maintain,
+  wave,
   anand,
   rakesh,
   supply,
