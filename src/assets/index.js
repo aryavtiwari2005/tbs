@@ -27,8 +27,8 @@ import people03 from "./people03.png";
 import sustainability from "./sustainability.svg";
 import finance from "./finance.svg";
 import supply from "./supply.svg";
-import anand from "./anand.jpeg"
-import rakesh from "./rakesh.jpeg"
+import anand from "./anand.png"
+import rakesh from "./rakesh.png"
 import wave from "./wave.svg"
 import maintain from "./maintain.svg"
 import project from "./project.svg"

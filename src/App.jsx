@@ -21,7 +21,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Business />
         {/* <Billing /> */}
-        {/* <CardDeal /> */}
+        <CardDeal />
         {/* <Testimonials /> */}
         {/* <Clients /> */}
         <CTA />

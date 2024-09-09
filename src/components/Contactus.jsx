@@ -25,8 +25,8 @@ const Contactus = () => (
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We'd love to hear about what you're looking for. Give us a few details below and our team will be in touch shortly.</p>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">If you'd prefer email, reach out to <a href="mailto:info@totalbiz-solutions.com" class="text-secondary">info@totalbiz-solutions.com</a></p>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">You can also connect with us over call at <a href="tel:+919315361829" class="text-secondary">+919315361829</a></p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Reach out to us at <a href="mailto:anand@tbsindia.com" class="text-secondary">anand@tbsindia.com</a></p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">or call us at <a href="tel:+919315361829" class="text-secondary">+919315361829</a></p>
             </div>
             <form method="post" action='https://script.google.com/macros/s/AKfycbyBFm9GneL5x5jH65nztnGqjcY2K-j0GecC63jbb9dZe2dlAJyGsjqYiKlrjgaszY9oDw/exec' name="contact-form" onSubmit={formSubmit}>
                 <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -59,10 +59,6 @@ const Contactus = () => (
                             <button class="flex mx-auto text-white bg-secondary border-0 py-2 px-8 focus:outline-none hover:bg-primary rounded text-lg" name="submitBtn">Submit</button>
                         </div>
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                            <a class="text-secondary">info@totalbiz-solutions.com</a>
-                            <p class="leading-normal my-5">Office Address - D1-901, The Pranayam, Sector - 82-85, Faridabad
-                                <br />HR - India - 121007
-                            </p>
                             {/* <span class="inline-flex">
                             <a class="text-gray-500">
                                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

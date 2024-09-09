@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, data, graph, training ,sustainability,finance,supply,wave,maintain,project,frame,digital} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, data, graph, training, sustainability, finance, supply, wave, maintain, project, frame, digital } from "../assets";
 
 export const navLinks = [
   {
@@ -23,58 +23,57 @@ export const features = [
   {
     id: "feature-1",
     icon: training,
-    title: "Business Performance Enhancement with CEO Dashboard",
-    content:"Accelerate your business growth with our CEO Dashboard. It provides real-time, data-driven insights into key performance indicators, enabling you to make informed decisions, identify opportunities, and optimize operations for maximum profitability."
+    title: "Business Performance Enhancement",
+    content: "Accelerate Growth : Drive business growth with our comprehensive CEO Dashboard, business analytics, and Balance Scorecard. Real- time Insights: Gain actionable insights into key performance indicators through real - time data analysis. Informed Decision - Making: Make data - driven decisions to optimize operations, identify opportunities, and maximize profitability."
   },
-  {
-    id: "feature-2",
+{
+  id: "feature-2",
     icon: graph,
-    title: "Business Analytics & Balance Scorecard, Opex Reduction initiatives",
-    content:
-      "Unleash the power of your data. Our Business Analytics and Balance Scorecard solutions help you identify cost reduction opportunities, optimize resource allocation, and improve operational efficiency.",
+    title: "Achieve Operational Excellence",
+    content:"Implement Robust Framework : Establish a comprehensive framework to drive operational excellence across all areas of the business.5S Implementation: Foster a clean and organized workplace through the implementation of 5S principles. Lean Six Sigma: Eliminate waste and reduce defects by applying Lean Six Sigma methodologies. Quality Management System (QMS ): Establish a comprehensive QMS to ensure consistent delivery of high-quality products and processes. Vendor Development: Assist clients in setting up effective QA functions and supporting vendor development initiatives."
   },
-  {
-    id: "feature-3",
+{
+  id: "feature-3",
     icon: data,
     title: "Operational Excellence ,5S, QMS and Quality Assurance Setup",
     content:
-      "Achieve operational excellence through a robust framework. Implement 5S for a clean and organized workplace, establish a comprehensive Quality Management System (QMS) to ensure product and process quality, and build a robust Quality Assurance setup to maintain high For the standards.",
-  },
-  {
-    id: "feature-4",
-    icon: wave,
-    title: "Six Sigma, Lean Six Sigma, Lean Manufacturing",
-    content:
-      "Drive dramatic improvements in efficiency and quality. Six Sigma focuses on reducing defects and variability, while Lean Six Sigma combines this with eliminating waste. Lean Manufacturing optimizes processes, reduces lead times, and maximizes customer value.",
-  },
-  {
-    id: "feature-5",
-    icon: maintain,
-    title: "Total Productive Maintenance",
-    content:
-      "Total Productive Maintenance (TPM) is a comprehensive approach to equipment maintenance that involves all employees in maximizing equipment effectiveness. By preventing breakdowns, reducing downtime, and improving equipment performance, TPM significantly enhances overall productivity and product quality.",
-  },
-  {
-    id: "feature-6",
-    icon: project,
-    title: "Project and Program Management",
-    content:
-      "Delivering successful projects and programs. Our expertise in project and program management ensures efficient planning, execution, and completion of initiatives. We align projects with strategic goals, manage resources effectively, mitigate risks, and deliver measurable outcomes on time and within budget.",
-  },
-  {
-    id: "feature-7",
-    icon: frame,
-    title: "Contract and governance framework",
-    content:
-      "Mitigate risks and optimize value. Our contract and governance framework ensures legal and commercial compliance, effective contract management, and risk mitigation. We establish clear roles and responsibilities, implement robust monitoring systems, and foster strong supplier relationships to maximize contract performance and achieve business objectives.",
-  },
-  {
-    id: "feature-8",
-    icon: digital,
-    title: "Digital Transformation",
-    content:
-    "Drive business growth and innovation. Digital transformation is the process of leveraging digital technologies to fundamentally change how an organization operates and delivers value. It involves integrating digital tools and processes to enhance customer experience, improve efficiency, and create new revenue streams."  
+  "Achieve operational excellence through a robust framework. Implement 5S for a clean and organized workplace, establish a comprehensive Quality Management System (QMS) to ensure product and process quality, and build a robust Quality Assurance setup to maintain high For the standards.",
   }
+  // {
+  //   id: "feature-4",
+  //   icon: wave,
+  //   title: "Six Sigma, Lean Six Sigma, Lean Manufacturing",
+  //   content:
+  //     "Drive dramatic improvements in efficiency and quality. Six Sigma focuses on reducing defects and variability, while Lean Six Sigma combines this with eliminating waste. Lean Manufacturing optimizes processes, reduces lead times, and maximizes customer value.",
+  // },
+  // {
+  //   id: "feature-5",
+  //   icon: maintain,
+  //   title: "Total Productive Maintenance",
+  //   content:
+  //     "Total Productive Maintenance (TPM) is a comprehensive approach to equipment maintenance that involves all employees in maximizing equipment effectiveness. By preventing breakdowns, reducing downtime, and improving equipment performance, TPM significantly enhances overall productivity and product quality.",
+  // },
+  // {
+  //   id: "feature-6",
+  //   icon: project,
+  //   title: "Project and Program Management",
+  //   content:
+  //     "Delivering successful projects and programs. Our expertise in project and program management ensures efficient planning, execution, and completion of initiatives. We align projects with strategic goals, manage resources effectively, mitigate risks, and deliver measurable outcomes on time and within budget.",
+  // },
+  // {
+  //   id: "feature-7",
+  //   icon: frame,
+  //   title: "Contract and governance framework",
+  //   content:
+  //     "Mitigate risks and optimize value. Our contract and governance framework ensures legal and commercial compliance, effective contract management, and risk mitigation. We establish clear roles and responsibilities, implement robust monitoring systems, and foster strong supplier relationships to maximize contract performance and achieve business objectives.",
+  // },
+  // {
+  //   id: "feature-8",
+  //   icon: digital,
+  //   title: "Digital Transformation",
+  //   content:
+  //   "Drive business growth and innovation. Digital transformation is the process of leveraging digital technologies to fundamentally change how an organization operates and delivers value. It involves integrating digital tools and processes to enhance customer experience, improve efficiency, and create new revenue streams."  
+  // }
 ];
 
 export const feedback = [
