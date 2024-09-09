@@ -128,14 +128,17 @@ export const footerLinks = [
       {
         name: "About us",
         link: "/about",
+        redirect:"/about"
       },
       {
         name: "Management Team",
         link: "https://www.hoobank.com/partners/",
+        redirect:"/about"
       },
       {
-        name: "Our Serivices",
+        name: "Our Services",
         link: "https://www.hoobank.com/suggestions/",
+        redirect:"#features"
       },
     ],
   },

@@ -11,11 +11,11 @@ const Footer = () => (
           alt="hoobank"
           className="w-[266px] h-[72.14px] object-contain"
         />
-      <p class="px-20 pt-10">Office:</p>
-      <p class="px-20">D1-901, The Pranayam, Sector - 82-85</p>
-      <p class="px-20">Faridabad HR - India - 121007</p>
+        <p class="px-20 pt-10">Office:</p>
+        <p class="px-20">D1-901, The Pranayam, Sector - 82-85</p>
+        <p class="px-20">Faridabad HR - India - 121007</p>
       </div>
-      
+
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
@@ -25,14 +25,13 @@ const Footer = () => (
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-fontBlack hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
+                  <li
+                    key={link.name}
+                    className={`font-poppins font-normal text-[16px] leading-[24px] text-fontBlack hover:text-secondary cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
+                      }`}
+                  >
+                    <a href={link.redirect}>{link.name}</a>
+                  </li>
               ))}
             </ul>
           </div>
@@ -51,9 +50,8 @@ const Footer = () => (
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
             onClick={() => window.open(social.link)}
           />
         ))}
