@@ -158,7 +158,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/become-a-partner/",
       },
       {
-        name: "info@totalbiz-solutions.com",
+        name: "anand@tbsindia.com",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
