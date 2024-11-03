@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "tbsindia.com",
+  "Id": "0c45515e-73e5-4262-8c1f-6d6446a90c80"
+}
